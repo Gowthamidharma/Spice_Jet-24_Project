@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+<parameter name="browser" value="edge"/>
+<listeners>
+  <listener class-name="spicejetutils.ListenerSpiceJet"/>
+  </listeners> 
+  <test thread-count="1" name="Test2">
+    <classes>
+      <class name="spicejettest.TC_007PaymentDetailsSpiceJet"/>
+      <class name="spicejettest.TC_006AddOnsSpiceJet"/>
+      <class name="spicejettest.TC_004OnewayFlightSpiceJet"/>
+      <class name="spicejettest.TC_005PassengerDetailsSpiceJet"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

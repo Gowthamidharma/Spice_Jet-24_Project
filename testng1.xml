@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<parameter name="browser" value="chrome"/>
+<listeners>
+  <listener class-name="spicejetutils.ListenerSpiceJet"/>
+  </listeners> 
+  <test thread-count="1" name="Test1">  
+    <classes>
+      <class name="spicejettest.TC_003LoginPagePhNoSpiceJet"/>
+      <class name="spicejettest.TC_001NavigateurlSpicejet"/>
+      <class name="spicejettest.TC_010ValidateFields"/>
+      <class name="spicejettest.TC_014LogoutFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

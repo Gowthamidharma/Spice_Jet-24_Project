@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="spicejetutils.ListenerSpiceJet"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="spicejettest.TC_007PaymentDetailsSpiceJet">
+        <methods>
+          <include name="StartAutomation"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="EndAutomation"/>
+          <include name="testDetails"/>
+          <include name="navigatetoURL"/>
+          <include name="tc_007_PaymentDetailsSpiceJet" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- spicejettest.TC_007PaymentDetailsSpiceJet -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

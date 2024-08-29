@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite4]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="spicejetutils.ListenerSpiceJet"/>
+  </listeners>
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="spicejettest.TC_013RoundtripCalendarEnableFunctoinality">
+        <methods>
+          <include name="tc_013RoundTripCalendarEnabled"/>
+          <include name="tc_013RoundTripEnabledValidation"/>
+          <include name="close"/>
+          <include name="StartAutomation"/>
+          <include name="EndAutomation"/>
+          <include name="navigatetoURL"/>
+          <include name="testDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- spicejettest.TC_013RoundtripCalendarEnableFunctoinality -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite4] -->

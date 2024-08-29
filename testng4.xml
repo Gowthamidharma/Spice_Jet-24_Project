@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite4">
+<parameter name="browser" value="chrome"/>
+<listeners>
+  <listener class-name="spicejetutils.ListenerSpiceJet"/>
+  </listeners> 
+  <test thread-count="1" name="Test4">
+    <classes>
+      <class name="spicejettest.TC_012RoundTripSpiceJet"/>
+      <class name="spicejettest.TC_013RoundtripCalendarEnableFunctoinality"/>
+       <class name="spicejettest.TC_008AddtionalTasksSpiceJet"/>
+      <class name="spicejettest.TC_009AddtionalTasksSpiceJet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

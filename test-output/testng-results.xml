@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T09:20:11 GST" name="Suite" finished-at="2024-08-29T09:33:38 GST" duration-ms="807225">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T09:20:11 GST" name="Test" finished-at="2024-08-29T09:33:38 GST" duration-ms="807225">
+      <class name="spicejettest.TC_015SessionTimeOutSpiceJet">
+        <test-method is-config="true" signature="StartAutomation()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:20:10 GST" name="StartAutomation" finished-at="2024-08-29T09:20:11 GST" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartAutomation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:20:11 GST" name="setup" finished-at="2024-08-29T09:20:11 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:20:11 GST" name="testDetails" finished-at="2024-08-29T09:20:11 GST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="navigatetoURL(java.lang.String)[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:20:11 GST" name="navigatetoURL" finished-at="2024-08-29T09:20:36 GST" duration-ms="24532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoURL -->
+        <test-method signature="tc_015_SessionTimeoutSpiceJet()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:20:36 GST" name="tc_015_SessionTimeoutSpiceJet" finished-at="2024-08-29T09:33:29 GST" duration-ms="773165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_015_SessionTimeoutSpiceJet -->
+        <test-method is-config="true" signature="close()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:33:36 GST" name="close" finished-at="2024-08-29T09:33:38 GST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="EndAutomation()[pri:0, instance:spicejettest.TC_015SessionTimeOutSpiceJet@6f53b8a]" started-at="2024-08-29T09:33:39 GST" name="EndAutomation" finished-at="2024-08-29T09:33:39 GST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndAutomation -->
+      </class> <!-- spicejettest.TC_015SessionTimeOutSpiceJet -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
